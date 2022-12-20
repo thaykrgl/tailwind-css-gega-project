@@ -554,6 +554,20 @@ video {
   margin-right: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .font-gemunu {
   font-family: Gemunu Libre, sans-serif;
 }
@@ -567,7 +581,16 @@ video {
   font-weight: 700;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .text-gega-red {
   --tw-text-opacity: 1;
   color: rgb(188 26 69 / var(--tw-text-opacity));
+}
+
+.text-gega-grey {
+  --tw-text-opacity: 1;
+  color: rgb(221 221 221 / var(--tw-text-opacity));
 }
