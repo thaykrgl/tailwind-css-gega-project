@@ -1183,6 +1183,11 @@ a {
   color: rgb(221 221 221 / var(--tw-text-opacity));
 }
 
+.dark .dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:px-0 {
     padding-left: 0px;
